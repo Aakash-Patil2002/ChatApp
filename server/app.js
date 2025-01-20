@@ -14,7 +14,7 @@ dotenv.config();
 app.use(express.json());
 app.use(cookieParser());
 
-
+console.log("this is server")
 app.use(cors({
     origin:process.env.FRONTEND_URL,
     credentials:true
