@@ -1,0 +1,16 @@
+.rightpart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: calc(100vh - 65px);
+}
+.rightpart h4{
+    font-size: 22px;
+    font-weight: 700;
+    color: #ddd;
+}
+.rightpart p{
+    color: #ddd;
+    font-weight: 400;
+}

@@ -1,0 +1,30 @@
+.chatContainer{
+    width: 100%;
+    height: calc(100vh - 65px);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.message_container{
+    overflow-y: auto;
+    overflow:auto;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    -ms-overflow-style: none; 
+  scrollbar-width: none;
+}
+.message_container::-webkit-scrollbar{
+    display: none;
+}
+.loding_body{
+    font-size: 18px;
+    font-weight: 700;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+    color: #fff;
+}

@@ -1,0 +1,31 @@
+.nav{
+    padding: 15px 0;
+    width: 100%;
+    background-color: #111;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    display: inline-block;
+    margin-right: 20px;
+    width: 29px;
+}
+.logo h3{
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    margin: 0;
+}
+.nav_icon{
+    color: #fff;
+    font-size: 15px;
+    margin-right: 7px;
+}
+.nav_icon_text{
+    color: #fff;
+    font-size: 15px;
+    margin: 0;
+    font-weight: 600;
+}

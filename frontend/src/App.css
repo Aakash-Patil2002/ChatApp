@@ -1,0 +1,97 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quicksand:wght@300..700&display=swap');
+
+:root{
+  --font2:"Quicksand", serif;
+}
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Playfair Display", serif;
+}
+/* login and sign up */
+
+.wrapper{
+  background-color: #1D222B;
+  min-height: 100vh;
+  width: 100%;
+
+}
+.form{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  color: #fff;
+  
+}
+.inp-label-div{
+  width: 100%;
+  max-width: 320px;
+}
+.inp-label-div label{
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 4px;
+
+}
+.inp-icon-div{
+  display: flex;
+  border: 2px solid #2a5a90;
+  border-radius: 8px;
+  overflow: hidden;
+  height: 40px;
+  align-items: center;
+}
+.input-icon{
+ font-size: 15px;
+ padding:4px 8px;
+ color: lightgray;
+}
+.eye-icon{
+  font-size: 15px;
+ padding:4px 8px;
+ /* border-right: 1px solid #000; */
+ color: lightgray;
+ cursor: pointer;
+}
+.inp{
+  width: 100%;
+  padding:0 5px;
+  font-size: 15px;
+  box-shadow: none;
+  background-color: transparent;
+}
+.inp:focus{
+  outline: none;
+}
+
+.form-btn{
+  background-color: #2a5a90;
+  max-width: 320px;
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+.form-btn:hover{
+  background-color: #5964f8;
+}
+.right-image{
+  width: 330px;
+  margin: 0 auto;
+}
+.join-com{
+  color: #fff;
+  font-weight: 700;
+  text-align: center;
+}
+.right-para{
+  text-align: center;
+    color: #fff;
+    font-size: 15px;
+}

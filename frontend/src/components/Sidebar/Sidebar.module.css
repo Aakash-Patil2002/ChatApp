@@ -1,0 +1,76 @@
+.sidebar {
+    height: calc(100vh - 65px);
+    background-color: #111;
+}
+
+.sidebar_heading {
+    text-align: center;
+    font-size: 19px;
+    font-weight: 700;
+    color: #ddd;
+    width: 100%;
+    margin: 0;
+    display: none;
+}
+
+.users {
+    color: #ddd;
+}
+
+.skeleton_body {
+    overflow-y: scroll;
+    height: calc(100% - 65px);
+}
+
+.user {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    transition: 0.3s;
+    background-color: #111;
+}
+
+.user:hover {
+    background-color: #202020;
+}
+
+.activeuser {
+    background-color: aqua;
+}
+
+.profilePic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #524c4c;
+}
+
+.profDetails {
+    color: #ddd;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+
+.profDetails h6 {
+    margin: 0;
+    font-size: 15px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+.profDetails span {
+    font-size: 13px;
+}
+
+@media(min-width:768px) {
+    .profDetails {
+        display: flex;
+    }
+    .sidebar_heading{
+        display: block;
+    }
+}

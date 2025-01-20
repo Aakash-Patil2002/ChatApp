@@ -1,0 +1,45 @@
+:root {
+    --logingBg: #111;
+}
+
+.login_wrapper {
+    width: 100%;
+    background-color: var(--logingBg);
+}
+.topimg{
+    text-align: center;
+    
+}
+.topimg img{
+    display: inline-block;
+    width: 25px;
+}
+.signup_heading {
+    font-size: 22px;
+    font-weight: 600;
+    margin: 0;
+    text-align: center;
+    color: #fff;
+}
+
+.signup_para {
+    font-size: 14px;
+    margin: 0;
+    text-align: center;
+    color: lightgray;
+}
+
+.form_wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    justify-content: center;
+    height: 100vh;
+
+}
+.right_part{
+    padding:40px 80px;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}

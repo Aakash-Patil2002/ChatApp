@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quicksand:wght@300..700&display=swap');
+*{
+    /* font-family: "Playfair Display", serif; */
+    font-family: "Quicksand", serif;
+}
+
+.sender{
+    display: flex;
+    margin-bottom: 15px;
+}
+.receiver{
+    display: flex;
+    margin-bottom: 15px;
+}
+.prof_pic{
+    min-width: 40px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    border:1px solid #524e4e;
+}
+.maxwidth{
+    max-width: 60%;
+}
+.text_body{
+    background-color: #111;
+    border-radius: 10px;
+    width: auto;
+    
+    padding: 10px 15px;
+}
+
+.chatimg{
+    max-width: 250px;
+    border-radius: 10px;
+}
+.chatContent{
+    padding:10px;
+    background-color: #111;
+    border-radius: 8px;
+    text-transform: capitalize;
+}
+.chatContent p{
+    margin: 0;
+    font-size: 15px;
+    font-weight: 500;
+}
