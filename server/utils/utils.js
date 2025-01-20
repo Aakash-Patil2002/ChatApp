@@ -5,13 +5,13 @@ const generateTocken=(userId,res)=>{
         expiresIn:"7d"
     })
  
-    res.cookie("jwt",token,{
-        maxAge: 7*24*60*60*1000,//Milli seconds
-        httpOnly:true, //prevent xss attacks cross-site scripting attacks
-        sameSite:"strict",
-        secure:process.env.NODE_ENV !== "development"
+    res.cookie("jwt", token, {
+    maxAge: 7 * 24 * 60 * 60 * 1000, // 7 days in milliseconds
+    httpOnly: true, // Prevents client-side JavaScript from accessing the cookie
+    sameSite: process.env.NODE_ENV === "development" ? "lax" : "None", // Allow cross-site in production
+    secure: process.env.NODE_ENV !== "development", // Use secure cookies in production
+});
 
-    })
 
     return token;
 };
