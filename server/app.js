@@ -16,8 +16,7 @@ app.use(cookieParser());
 
 console.log("this is server")
 app.use(cors({
-    origin:"*",
-    credentials:false
+    origin:"*"
 }))
 
 app.use("/api/auth",authRoutes);
