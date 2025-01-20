@@ -9,7 +9,7 @@ const server=http.createServer(app);
 
 const io = new Server(server, {
     cors: {
-        origin: ["https://aakashpatil-chatapp.netlify.app"]
+        origin: ["https://localhost:3000"]
     }
 });
 
